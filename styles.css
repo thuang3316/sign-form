@@ -1,14 +1,52 @@
 body {
-    display: flex;
     margin: 0;
 }
 
-img {
-    min-width: 40%;
-    min-height: 100vh;
+.image-container {
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    color: white;
 }
 
-.container {
-    min-width: 60%;
-    min-height: 100vh;
+.background-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    z-index: -1;
+}
+
+.odin-title-logo {
+    position: absolute;
+    top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    opacity: 0.6;
+    height: 12%;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+.odin-title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a {
+    color: white;
 }
