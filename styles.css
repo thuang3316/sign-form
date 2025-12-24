@@ -70,7 +70,7 @@ a {
     padding: 2rem 3rem;
 }
 
-p {
+.intro {
     font-size: 2rem;
     font-weight: 800;
 }
@@ -78,7 +78,6 @@ p {
 /* form setup */
 .form {
     padding: 1rem 3rem;
-    height: 30%;
 }
 
 .form-field label {
@@ -99,6 +98,7 @@ input {
     width: 30ch;
     border-width: 0.1px;
     border-color: aliceblue;
+    height: 1.2rem;
 }
 
 /* hide the little arrows after number */
@@ -111,4 +111,36 @@ input[type="number"]::-webkit-outer-spin-button {
 #password,
 #confirm-pwd {
     border-color: rgba(243, 22, 22, 0.952);
+}
+
+/* bottom setup */
+.bottom {
+    padding: 1rem 3rem;
+    flex: 1;
+    background-color: rgb(218, 215, 215);
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: rgb(43, 94, 9);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.login {
+    font-size: 1.5rem;
+}
+
+#login {
+    text-decoration: none;
+    color: rgb(43, 94, 9);
+}
+
+button:hover {
+    background-color: rgb(88, 145, 4);
+    transform: scale(1.01);
+    cursor: pointer;
 }
