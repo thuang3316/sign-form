@@ -97,6 +97,8 @@ p {
 input {
     appearance: none;
     width: 30ch;
+    border-width: 0.1px;
+    border-color: aliceblue;
 }
 
 /* hide the little arrows after number */
