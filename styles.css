@@ -3,6 +3,7 @@ body {
     display: flex;
 }
 
+/* left hand size */
 .image-container {
     position: relative;
     width: 40%;
@@ -52,6 +53,7 @@ a {
     color: white;
 }
 
+/* right hand side */
 .container {
     display: flex;
     flex-direction: column;
@@ -64,11 +66,47 @@ a {
     flex-direction: column;
     justify-content: end;
     background-color: rgb(218, 215, 215);
-    height: 33%;
-    padding: 40px 60px;
+    height: 35%;
+    padding: 2rem 3rem;
 }
 
 p {
     font-size: 2rem;
     font-weight: 800;
+}
+
+/* form setup */
+.form {
+    padding: 1rem 3rem;
+    height: 30%;
+}
+
+.form-field label {
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: lightslategrey;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+input {
+    appearance: none;
+    width: 30ch;
+}
+
+/* hide the little arrows after number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#password,
+#confirm-pwd {
+    border-color: rgba(243, 22, 22, 0.952);
 }
