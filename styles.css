@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    display: flex;
 }
 
 .image-container {
@@ -49,4 +50,25 @@ body {
 
 a {
     color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgb(218, 215, 215);
+    height: 33%;
+    padding: 40px 60px;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 800;
 }
